@@ -15,7 +15,7 @@ public class Concesionario {
         Vehiculo vehiculoVendido = null;
         // Buscar el vehículo en el inventario
         for (Vehiculo v : inventario) {
-            if (v.getCodigo().equals(codigo*******)) {
+            if (v.getCodigo().equals(codigovehiculo)) {
                 vehiculoVendido = v;
                 break;
             }
