@@ -44,8 +44,8 @@ public class Vehiculo {
 // Clases derivadas de Vehiculo
 class Auto extends Vehiculo {
     // Constructor de la clase Auto
-    public Auto(String codigo, String marca, int modelo, double kilometraje) {
-        super(codigo, marca, ******, modelo, kilometraje); // Llama al constructor de Vehiculo
+    public Auto(String codigo, String marca, String tipo, int modelo, double kilometraje) {
+        super(codigo, marca, tipo, modelo, kilometraje); // Llama al constructor de Vehiculo
     }
 }
 
