@@ -1,4 +1,5 @@
 public class Vehiculo {
+     // Atributos de la clase Vehiculo
     private String codigo; // Código único del vehículo
     private String marca; // Marca del vehículo
     private String tipo; // Tipo de vehículo (Auto, Camioneta, Motocicleta)
